@@ -1674,10 +1674,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
-  font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
-  background-size: cover;
+  background-color: #d2a3a3;
+  background-image: url("../img/Background/Background\ .png ");
 }
 
 #footer .footer-top {
@@ -1762,41 +1760,10 @@ section {
   padding-bottom: 12px;
 }
 
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 5px;
-  text-align: left;
-  border: 1px solid white;
-}
 
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
 
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
 
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
-}
+
 
 #footer .copyright-wrap {
   border-top: 1px solid #8577fb;
@@ -1886,52 +1853,13 @@ section {
   color: #fff;
 }
 
-#footer .footer-newsletter {
-  font-size: 15px;
-}
 
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 5px;
-  text-align: left;
-  border: 1px solid white;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
 
 #footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border-radius:30px;
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
-}
 
 #footer .copyright-wrap {
   border-top: 1px solid #8577fb;
@@ -1967,3 +1895,13 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#newsletter-email{
+  width:240px;
+  height: 58px;
+  border:none;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #ffffff;
+  background-image: url("../img/Background/Background\ .png ");
+}
+

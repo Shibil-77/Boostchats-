@@ -722,64 +722,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about {
-  padding: 50px 0;
-}
-
-
-
-.about .content h3 {
-  font-weight: 600;
-  font-size: 32px;
-  color: #2c4964;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #5846f9;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-.about .content .read-more {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 50px 10px 28px;
-  border-radius: 5px;
-  transition: 0.5s;
-  color: #fff;
-  background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);
-  position: relative;
-}
-
-.about .content .read-more:hover {
-  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
-}
-
-.about .content .read-more i {
-  font-size: 22px;
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
 
 /*--------------------------------------------------------------
 # Counts
@@ -1518,10 +1460,20 @@ section {
 
 .team .icon-box img {
   width: 250px;
-  height: 200px;
+  height: 250px;
   border-radius: 50%;
   margin-top: 20px;
 }
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  padding: 10px;
+  margin: 20px 0;
+  border-left: 5px solid #ccc;
+  max-width: 100px;
+}
+
 
 
 .team .icon-box h6 a {
@@ -1584,9 +1536,9 @@ section {
   font-size: 30px;
 }
 
-.about .icon-box p {
-  line-height: 80px;
-  font-size: 14px;
+#about-p {
+  line-height: 20px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -1788,7 +1740,6 @@ section {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -1884,8 +1835,9 @@ section {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding:0;
   margin-right: 4px;
+  margin-top: 3px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1897,6 +1849,7 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+  width: 40px;
 }
 
 #newsletter-email{
@@ -1907,4 +1860,29 @@ section {
   background-color: #ffffff;
   background-image: url("../img/Background/Background\ .png ");
 }
+
+#newsletter-input {
+  padding: .8rem 1rem;
+  width: 54%;
+  border-radius: 5rem;
+  outline: none;
+  border: .1rem solid #d1d1d1;
+  font-size: .9rem;
+}
+
+::placeholder {
+  color: #d1d1d1;
+}
+
+.subscribe-btn {
+  padding: .8rem 2rem;
+  border-radius: 5rem;
+  background: linear-gradient(90deg, #0d0b0a, #000000);
+  color: #fff;
+  font-size: .9rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 

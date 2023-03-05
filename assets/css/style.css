@@ -1563,10 +1563,7 @@ blockquote {
   background-image: url("../img/Background/Background\ .png ");
 }
 
-.contact-div-bg{
-  background-color: #D9EBF5;
-  background-image: url("../img/Background/Background\ .png ");
-}
+
 
 
 
@@ -1643,7 +1640,7 @@ blockquote {
 }
 
 #footer .footer-top .footer-contact h3 {
-  font-size: 28px;
+  font-size: 48px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1885,4 +1882,13 @@ blockquote {
   cursor: pointer;
 }
 
+
+#contact-h4 {
+  font-size:30px;
+}
+
+#contact-h5{
+  font-size:20px;
+  margin-left:100px;
+}
 

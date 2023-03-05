@@ -1537,8 +1537,8 @@ blockquote {
 }
 
 #about-p {
-  line-height: 20px;
-  font-size: 15px;
+  line-height: 30px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 
@@ -1717,9 +1717,6 @@ blockquote {
 
 
 
-#footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
-}
 
 #footer .credits {
   padding-top: 5px;
@@ -1812,9 +1809,6 @@ blockquote {
 }
 
 
-#footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
-}
 
 #footer .credits {
   padding-top: 5px;
@@ -1896,4 +1890,57 @@ blockquote {
 .time-div{
   margin-top:20px;
   margin-left:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes colorful {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+ 
+ #team-nishad  .sci {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+ #team-nishad  .sci li {
+  margin: 0 10px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+}
+ #team-nishad  .sci li a {
+  font-size: 24px;
+}
+ #team-nishad :hover .content {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+ #team-nishad :hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
 }

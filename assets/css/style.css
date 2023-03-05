@@ -13,6 +13,8 @@ body {
   color: #444444;
 }
 
+
+
 a {
   color: #5846f9;
   text-decoration: none;
@@ -42,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #5e18eb;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -566,6 +568,7 @@ header {
   font-weight: 700;
   line-height: 64px;
   color: #000000;
+  font-family:'Norwester', arial;
 }
 
 #heroDiscordImg{
@@ -1582,7 +1585,7 @@ section {
 }
 
 .about .icon-box p {
-  line-height: 50px;
+  line-height: 80px;
   font-size: 14px;
   margin-bottom: 0;
 }

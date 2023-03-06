@@ -197,6 +197,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .navbar a i,
@@ -234,9 +235,10 @@ h6 {
 }
 
 #navbarBtn {
-  background-color: #5e18eb;
+  background-color: #000000;
   width: 130px;
   color: #fff;
+  font-family: 'DM Sans', sans-serif;
   height: 40px;
   border-radius: 20px;
   display: flex;
@@ -250,7 +252,7 @@ h6 {
 }
 
 #navbarBtn:hover {
-  background-color: #6729e2;
+  background-color: #5e18eb;
 }
 
 
@@ -596,12 +598,12 @@ header {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #fff;
-  box-shadow: 11px 9px 0px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 7px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 #hero .btn-get-started:hover {
   background: #000000;
-  color: #5846f9;
+  width: 100px;
 }
 
 #hero .animated {
@@ -720,6 +722,8 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
 }
 
 
@@ -794,12 +798,16 @@ section {
 .services .icon-box h4 a {
   color: #2c4964;
   transition: ease-in-out 0.3s;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
 }
 
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
 }
 
 .services .icon-box:hover {
@@ -1456,6 +1464,8 @@ section {
   min-width:200px;
   max-width:200px;
   text-align:center;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
 }
 
 .team .icon-box img {
@@ -1494,7 +1504,6 @@ blockquote {
   text-align: center;
   padding: 50px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #D9EBF5;
   border-radius: 58px;
 }
 
@@ -1531,15 +1540,21 @@ blockquote {
   fill: #f5f5f5;
 }
 
-#about-h4{
-  margin-top: 30px;
-  font-size: 30px;
+
+#about-h4 {
+    margin-top: 28px;
+    font-size: 45px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 #about-p {
+  margin-top: 28px;
   line-height: 30px;
   font-size: 18px;
   margin-bottom: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
 }
 
 
@@ -1804,7 +1819,7 @@ blockquote {
 
 
 #footer .footer-newsletter form input[type=submit] {
-  width: 300px;
+  width: 600px;
   border-radius:30px;
 }
 
@@ -1854,7 +1869,7 @@ blockquote {
 
 #newsletter-input {
   padding: .8rem 1rem;
-  width: 54%;
+  width: 63%;
   border-radius: 5rem;
   outline: none;
   border: .1rem solid #d1d1d1;

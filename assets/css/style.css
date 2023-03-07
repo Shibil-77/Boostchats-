@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 
@@ -570,7 +570,7 @@ header {
   font-weight: 700;
   line-height: 64px;
   color: #000000;
-  font-family:'Norwester', arial;
+  font-family: 'Norwester', sans-serif;                                               
 }
 
 #heroDiscordImg{
@@ -603,7 +603,8 @@ header {
 
 #hero .btn-get-started:hover {
   background: #000000;
-  width: 100px;
+  padding: 13px 30px;
+  border-radius: 25px;
 }
 
 #hero .animated {
@@ -758,7 +759,7 @@ section {
   padding: 50px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #EBF4FA;
-  border-radius: 58px;
+  border-radius: 25px;
 }
 
 .services .icon-box .icon {
@@ -1550,22 +1551,12 @@ blockquote {
 
 #about-p {
   margin-top: 28px;
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 27px;
+  font-size: 16px;
   margin-bottom: 0;
   font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

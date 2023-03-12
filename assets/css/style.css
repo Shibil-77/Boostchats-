@@ -1926,11 +1926,13 @@ blockquote {
  
  #team-nishad  .sci {
   position: absolute;
-  bottom: 50px;
+  bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  list-style-type: none;
+  margin-top: 10px;
 }
  #team-nishad  .sci li {
   margin: 0 10px;
@@ -1950,3 +1952,43 @@ blockquote {
   transform: translateY(0px);
   opacity: 1;
 }
+
+
+#team-img{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+/* team-sinan */
+
+#team-sinan  .sci {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+ #team-sinan  .sci li {
+  margin: 0 10px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+}
+ #team-sinan  .sci li a {
+  font-size: 24px;
+}
+ #team-sinan :hover .content {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+ #team-sinan :hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
